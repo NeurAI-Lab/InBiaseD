@@ -30,7 +30,7 @@ Resnet-18* refers to the CIFAR-version in which the first convolutional layer ha
 
 ## Running 
 
-####Train Baseline
+#### Train Baseline
 
 ```
 python train_normal.py 
@@ -50,7 +50,7 @@ python train_normal.py
 --scheduler cosine
 --output_dir /tinyimagenet_baseline
 ```
-####Train InBiaseD
+#### Train InBiaseD
 
 ```
 python train_inbiased.py 
@@ -77,8 +77,8 @@ python train_inbiased.py
 --output_dir /tinyimagenet_inbiased
 ```
 
-###Test
-####For evaluation only one network is used - the InBiaseD network (the first network)
+### Test
+#### For evaluation only one network is used - InBiaseD network (the first network)
 ```
 python test.py 
 --dataset
@@ -92,7 +92,7 @@ tinyimagenet
 /tinyimagenet_inbiased/results_inbiased
 ```
 
-####For results of shapeNet (second network)
+#### For results of shapeNet (second network)
 ```
 python test.py 
 --dataset
@@ -106,7 +106,7 @@ tinyimagenet
 /tinyimagenet_inbiased/results_shapenet
 ```
 
-####For Ensemble of InBiaseD Networks:
+#### For Ensemble of InBiaseD Networks:
 
 For evaluation only one network is used - the InBiaseD network (the first network)
 ```
@@ -124,7 +124,7 @@ tinyimagenet
 /tinyimagenet_inbiased/results_ensemble
 ```
 
-##Cite Our Work
+## Cite Our Work
 
 ## License
 
