@@ -3,9 +3,7 @@
 This is the official code for CoLLAs 2022 paper, "InBiaseD: Inductive Bias Distillation to Improve Generalization and Robustness through Shape-awareness" by Shruthi Gowda, Elahe Arani and Bahram Zonooz.
 
 ## Methodology
-```
-Network : Resnet18 
-```
+
 #### InBiaseD framework
 
 There are 2 networks:
@@ -14,21 +12,27 @@ Shape-network receiving shape images. InBiaseD is used for inference.
 
 ![image info](./src/method.png)
 
-## Datasets and Setup
+## Datasets 
 
 ![image info](./src/dataset.png)
 
+## Setup
+
+```
+Network : Resnet18 
+```
+### Requirements
+- python==3.8.0
+- torch==1.10.0
+- torchvision==0.8.0 
+- 
 The learning rate is set to $0.1$ (except for C-MNIST where it is $0.01$). SGD optimizer is used with a momentum of 0.9 and a weight decay of 1e-4. The same settings as for baselines are used for training InBiaseD. We apply random crop and random horizontal flip as the augmentations for all training.
 Resnet-18* refers to the CIFAR-version in which the first convolutional layer has 3x3 kernel and the maxpool operation is removed.
 
 ![image info](./src/setup.png)
 
-## Requirements
-- python==3.8.0
-- torch==1.10.0
-- torchvision==0.8.0 
 
-## Running 
+## Train 
 
 #### Train Baseline
 
