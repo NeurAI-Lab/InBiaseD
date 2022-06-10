@@ -2,16 +2,11 @@
 
 This is the official code for CoLLAs 2022 paper, "InBiaseD: Inductive Bias Distillation to Improve Generalization and Robustness through Shape-awareness" by Shruthi Gowda, Elahe Arani and Bahram Zonooz.
 
-## Requirements
-- python==3.8.0
-- torch==1.10.0
-- torchvision==0.8.0 
-
 ## Methodology
 ```
 Network : Resnet18 
 ```
-####InBiaseD framework
+#### InBiaseD framework
 
 There are 2 networks:
 InBiaseD-network receiving RGB images and 
@@ -27,6 +22,11 @@ The learning rate is set to $0.1$ (except for C-MNIST where it is $0.01$). SGD o
 Resnet-18* refers to the CIFAR-version in which the first convolutional layer has 3x3 kernel and the maxpool operation is removed.
 
 ![image info](./src/setup.png)
+
+## Requirements
+- python==3.8.0
+- torch==1.10.0
+- torchvision==0.8.0 
 
 ## Running 
 
