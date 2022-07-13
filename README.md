@@ -14,12 +14,12 @@ Shape-network receiving shape images. InBiaseD is used for inference.
 
 ## Datasets 
 
-![image info](./src/dataset.png | width=80)
+![image info](./src/dataset.png | width=60)
 
 ## Setup
 
 ```
-Network : Resnet18 
+Network: Resnet18 
 ```
 ### Requirements
 - python==3.8.0
