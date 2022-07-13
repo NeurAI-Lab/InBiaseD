@@ -1,6 +1,6 @@
 
 
-This is the official code for CoLLAs 2022 paper, "**InBiaseD: Inductive Bias Distillation to Improve Generalization and Robustness through Shape-awareness**" by Shruthi Gowda, Elahe Arani and Bahram Zonooz.
+This is the official code for CoLLAs 2022 paper, "[**InBiaseD: Inductive Bias Distillation to Improve Generalization and Robustness through Shape-awareness**](https://arxiv.org/pdf/2206.05846.pdf)" by Shruthi Gowda, Elahe Arani and Bahram Zonooz.
 
 ## Methodology
 
@@ -131,6 +131,15 @@ tinyimagenet
 ```
 
 ## Cite Our Work
+
+If you find the code useful in your research, please consider citing our paper:
+
+    @article{gowda2022inbiased,
+       title={InBiaseD: Inductive Bias Distillation to Improve Generalization and Robustness through Shape-awareness},
+       author={Gowda, Shruthi and Zonooz, Bahram and Arani, Elahe},
+       journal={arXiv preprint arXiv:2206.05846},
+       year={2022}
+    }
 
 ## License
 
