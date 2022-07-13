@@ -14,7 +14,7 @@ Shape-network receiving shape images. InBiaseD is used for inference.
 
 ## Datasets 
 
-![image info](./src/dataset.png)
+![image info](./src/dataset.png | width=80)
 
 ## Setup
 
